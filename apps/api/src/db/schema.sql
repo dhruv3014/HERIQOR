@@ -1,4 +1,4 @@
--- UNESCO World Heritage Centre — database schema (plain SQL).
+-- HERIQOR — World Heritage database schema (plain SQL).
 -- 13 domain tables + platform tables (auth, versioning, watchlist).
 --
 -- Running this file DROPS and recreates everything, so it doubles as a clean

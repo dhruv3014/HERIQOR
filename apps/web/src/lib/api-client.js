@@ -3,7 +3,7 @@
 // - In development VITE_API_BASE_URL is empty, so requests go to "/api/..." and
 //   Vite proxies them to http://localhost:4000.
 // - In production (Vercel) VITE_API_BASE_URL points at the Render backend, e.g.
-//   "https://whc-api.onrender.com", and requests go there directly.
+//   "https://your-heriqor-api.onrender.com", and requests go there directly.
 //
 // The short-lived access token lives in memory; the refresh token is an
 // httpOnly cookie, so every request uses `credentials: "include"`.

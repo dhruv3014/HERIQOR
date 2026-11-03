@@ -1,4 +1,4 @@
-# UNESCO World Heritage Centre — Database Portal
+# HERIQOR — World Heritage Database Portal
 
 A production-ready, full-stack portal over the UNESCO World Heritage database
 (13 normalized tables covering sites, managers, funds, donations, committees and
@@ -7,7 +7,7 @@ awards), with role-based access, a full audit trail, and a dynamic, self-describ
 **Monorepo layout**
 
 ```
-world-heritage-portal/
+HERIQOR/
 ├── apps/
 │   ├── api/     Express + PostgreSQL REST API   → deploy to Render
 │   └── web/     React + Vite frontend           → deploy to Vercel
@@ -18,7 +18,7 @@ world-heritage-portal/
 **Stack:** React 18 + Vite 6 · Express 4 + Node (ESM) · PostgreSQL (raw SQL via `pg`)
 Hosted on **Vercel** (web) + **Render** (api) + **Neon** (database). No ORM, no Docker.
 
-**Live site:** https://unesco-world-heritage-centre-virid.vercel.app
+**Current live site:** https://unesco-world-heritage-centre-virid.vercel.app
 
 ---
 

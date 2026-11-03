@@ -31,8 +31,8 @@ export default function AppLayout() {
         <div className="flex h-16 items-center gap-2 border-b border-border px-5">
           <Landmark className="h-6 w-6 text-primary" />
           <div>
-            <div className="font-semibold leading-tight">UNESCO WHC</div>
-            <div className="text-xs text-muted-foreground">Heritage Database</div>
+            <div className="font-semibold leading-tight">HERIQOR</div>
+            <div className="text-xs text-muted-foreground">World Heritage Database</div>
           </div>
         </div>
 
@@ -75,7 +75,7 @@ export default function AppLayout() {
         <header className="flex h-14 items-center justify-between border-b border-border bg-card px-4 md:hidden">
           <div className="flex items-center gap-2">
             <Landmark className="h-5 w-5 text-primary" />
-            <span className="font-semibold">UNESCO WHC</span>
+            <span className="font-semibold">HERIQOR</span>
           </div>
           <Badge tone={user?.role === "ADMIN" ? "blue" : "green"}>{user?.role}</Badge>
         </header>

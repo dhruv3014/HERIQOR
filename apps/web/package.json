@@ -1,9 +1,9 @@
 {
-  "name": "@whc/web",
+  "name": "@heriqor/web",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "UNESCO World Heritage Centre — React (Vite) frontend.",
+  "description": "HERIQOR React (Vite) frontend for the World Heritage database.",
   "engines": {
     "node": ">=18"
   },

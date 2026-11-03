@@ -1,9 +1,9 @@
 {
-  "name": "@whc/api",
+  "name": "@heriqor/api",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "UNESCO World Heritage Centre — REST API (Express + PostgreSQL).",
+  "description": "HERIQOR REST API (Express + PostgreSQL) for the World Heritage database.",
   "engines": {
     "node": ">=18"
   },

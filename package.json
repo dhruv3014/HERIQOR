@@ -1,8 +1,8 @@
 {
-  "name": "world-heritage-portal",
+  "name": "heriqor",
   "version": "1.0.0",
   "private": true,
-  "description": "UNESCO World Heritage Centre database portal — Express API (apps/api) + React/Vite frontend (apps/web).",
+  "description": "HERIQOR — World Heritage database portal with an Express API (apps/api) and React/Vite frontend (apps/web).",
   "engines": {
     "node": ">=18"
   },

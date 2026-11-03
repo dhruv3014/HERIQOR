@@ -35,7 +35,7 @@ export default function LoginPage() {
     <div className="grid min-h-screen md:grid-cols-2">
       <div className="hidden flex-col justify-center gap-6 bg-primary p-12 text-primary-foreground md:flex">
         <Landmark className="h-12 w-12" />
-        <h1 className="text-3xl font-bold leading-tight">UNESCO World Heritage Centre</h1>
+        <h1 className="text-3xl font-bold leading-tight">HERIQOR</h1>
         <p className="max-w-md text-primary-foreground/80">
           A secured, version-controlled portal over the World Heritage database — explore sites, funds,
           donations, committees and awards with full search and filtering.

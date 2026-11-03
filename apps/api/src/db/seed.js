@@ -26,7 +26,7 @@ async function seedUsers() {
     "app_user",
     {
       email: config.admin.email,
-      name: "WHC Administrator",
+      name: "HERIQOR Administrator",
       password_hash: await bcrypt.hash(config.admin.password, 10),
       role: "ADMIN",
     },
